@@ -1,14 +1,3 @@
-import * as React from 'react'
-import Layout from '../components/layout'
-
-const AboutPage = () => {
-  return (
-    <Layout pageTitle="About Me">
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
-    </Layout>
-  )
-}
-
-export const Head = () => <title>About Me</title>
-
-export default AboutPage
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6b08f53381cde297f6358f99a671365b1996c4aa396523ba4817575a0832f77
+size 2352

@@ -1,32 +1,3 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
-import { 
-  container,
-  heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
-} from '../components/layout.module.css'
-
-const Layout = ({ pageTitle, children }) => {
-  return (
-    <div className={container}>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>Home</Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>About</Link>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <h1 className={heading}>{pageTitle}</h1>
-        {children}
-      </main>
-    </div>
-  )
-}
-
-export default Layout
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ecf47961bf3d6668f6fd12b0e176a6fcaae62dd5886f849f93b0cf8281755d9
+size 291
